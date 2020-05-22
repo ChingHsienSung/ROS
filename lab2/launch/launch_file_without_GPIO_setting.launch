@@ -1,0 +1,10 @@
+<launch> 
+	<node pkg = "lab2" name = "UltraSonic_Talker_First_Node" type = "UltraSonic_talker_1.py" output = "screen"> 
+	</node> 
+
+	<node pkg = "lab2" name = "UltraSonic_Talker_Second_Node" type = "UltraSonic_talker_2.py" output = "screen"> 
+	</node> 
+
+	<node pkg = "lab2" name = "UltraSonic_Talker_Third_Node" type = "UltraSonic_talker_3.py" output = "screen"> 
+	</node> 
+</launch> 
